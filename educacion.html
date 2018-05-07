@@ -77,11 +77,19 @@
         </p>
         <p>
           <label for="Institucion"><strong>Institución:</strong></label>
-          <input type="text" name="Institución">
+          <input id="Institución" type="text" placeholder="Ingrese Institución donde estudió" size="50px" required>
         </p>
         <p>
           <label for="Lugar"><strong>Lugar:</strong></label><br>
-          <textarea name="Lugar" rows="3" cols="40">Lugar</textarea>
+          <textarea name="Lugar" rows="3" cols="40"></textarea>
+        </p>
+        <p>
+          <label for="final"><strong>¿Culmino?:</strong></label>
+          <input type="radio" name="final"> SI
+          <input type="radio" name="final"> NO
+        </p>
+        <p>
+          <input type="submit" value="Enviar">
         </p>
     </form>
     <footer>
